@@ -1,0 +1,30 @@
+{
+  "name": "ion-datetime-picker-converter-asgardia",
+  "version": "1.0.0",
+  "description": "Model converter from/to Asgardia calendar for ion-datetime-picker",
+  "main": "dist/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && webpack",
+    "prepublish": "npm run build"
+  },
+  "author": "Kate Miháliková <kate@katemihalikova.cz> (https://katemihalikova.cz/)",
+  "license": "MIT",
+  "repository": "katemihalikova/ion-datetime-picker-converter-asgardia",
+  "peerDependencies": {
+    "ion-datetime-picker": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/angular": "~1.5.23",
+    "asgardia-calendar-converter": "^1.0.1",
+    "awesome-typescript-loader": "^3.1.2",
+    "ion-datetime-picker": "^1.0.0",
+    "rimraf": "^2.6.1",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.3.2"
+  }
+}
